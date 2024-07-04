@@ -1,0 +1,12 @@
+# ninja log v5
+13	939	7417983856483822	CMakeFiles/math_parser.dir/main.cpp.obj	9fc2f7fb408e0db2
+942	1364	7417983860691976	math_parser.exe	b3f3fad70bf3230f
+58	660	7417992379313676	CMakeFiles/math_parser.dir/src/parser/parser.cpp.obj	573717a1f6389a2b
+47	787	7417992380541926	CMakeFiles/math_parser.dir/src/tokenizer/Tokenizer.cpp.obj	7542c887864d7b83
+34	1322	7417992385950986	CMakeFiles/math_parser.dir/main.cpp.obj	9fc2f7fb408e0db2
+1322	1525	7417992387947947	math_parser.exe	950939b302cf9c
+46	149	7417992838738770	CMakeFiles/math_parser.dir/src/tokenizer/Tokenizer.cpp.obj	7542c887864d7b83
+32	763	7417992844893505	CMakeFiles/math_parser.dir/main.cpp.obj	9fc2f7fb408e0db2
+764	923	7417992846466159	math_parser.exe	950939b302cf9c
+5	404	7417993134264223	CMakeFiles/math_parser.dir/main.cpp.obj	9fc2f7fb408e0db2
+405	546	7417993135636262	math_parser.exe	950939b302cf9c

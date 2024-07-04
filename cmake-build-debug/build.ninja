@@ -55,6 +55,18 @@ build CMakeFiles/math_parser.dir/main.cpp.obj: CXX_COMPILER__math_parser_unscann
   OBJECT_DIR = CMakeFiles\math_parser.dir
   OBJECT_FILE_DIR = CMakeFiles\math_parser.dir
 
+build CMakeFiles/math_parser.dir/src/tokenizer/Tokenizer.cpp.obj: CXX_COMPILER__math_parser_unscanned_Debug C$:/Users/endoc/CLionProjects/math_parser/src/tokenizer/Tokenizer.cpp || cmake_object_order_depends_target_math_parser
+  DEP_FILE = CMakeFiles\math_parser.dir\src\tokenizer\Tokenizer.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\math_parser.dir
+  OBJECT_FILE_DIR = CMakeFiles\math_parser.dir\src\tokenizer
+
+build CMakeFiles/math_parser.dir/src/parser/parser.cpp.obj: CXX_COMPILER__math_parser_unscanned_Debug C$:/Users/endoc/CLionProjects/math_parser/src/parser/parser.cpp || cmake_object_order_depends_target_math_parser
+  DEP_FILE = CMakeFiles\math_parser.dir\src\parser\parser.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\math_parser.dir
+  OBJECT_FILE_DIR = CMakeFiles\math_parser.dir\src\parser
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target math_parser
@@ -63,7 +75,7 @@ build CMakeFiles/math_parser.dir/main.cpp.obj: CXX_COMPILER__math_parser_unscann
 #############################################
 # Link the executable math_parser.exe
 
-build math_parser.exe: CXX_EXECUTABLE_LINKER__math_parser_Debug CMakeFiles/math_parser.dir/main.cpp.obj
+build math_parser.exe: CXX_EXECUTABLE_LINKER__math_parser_Debug CMakeFiles/math_parser.dir/main.cpp.obj CMakeFiles/math_parser.dir/src/tokenizer/Tokenizer.cpp.obj CMakeFiles/math_parser.dir/src/parser/parser.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\math_parser.dir

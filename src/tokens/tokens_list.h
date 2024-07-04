@@ -10,10 +10,15 @@ enum class Tokens{
     COS,
     TG,
     CTG,
+
     ARSIN,
     ARCOS,
     ARTG,
     ARCTG,
+
+    LPAR,
+    RPAR,
+
     UNNOWN,
 };
 
