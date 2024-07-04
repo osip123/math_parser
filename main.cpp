@@ -1,13 +1,8 @@
 #include <iostream>
-#include "src/tokens/tokens_list.h"
-#include "src/tokenizer/Tokenizer.h"
+#include "src/parser/parser.h"
 
 int main() {
-
-    Tokenizer tokenizer{};
-
-    Tokenizer::create_new_token('ctg');
-
-    std::cout << "Hello, World!" << std::endl;
+    parser new_parser;
+    new_parser.create_token_list('cos');
     return 0;
 }

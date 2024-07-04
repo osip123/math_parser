@@ -5,9 +5,8 @@
 #include "Tokenizer.h"
 
 Tokens Tokenizer::create_new_token(char symbol) {
-    if (symbol == 'cos'){
+    if (symbol == 'cos')
         return Tokens::COS;
-    }
 
     if (symbol == 'sin'){
         return Tokens::SIN;

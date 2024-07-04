@@ -8,8 +8,6 @@
 #include "../tokens/tokens_list.h"
 
 class Tokenizer {
-private:
-    Tokens new_Token;
 public:
     static Tokens create_new_token(char symbol);
 };
