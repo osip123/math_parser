@@ -10,4 +10,7 @@ add_executable(math_parser main.cpp
         src/tokenizer/Tokenizer.h
         src/parser/parser.cpp
         src/parser/parser.h
-        src/parser/parser.h)
+        src/parser/parser.h
+        src/tokenizer/Print.cpp
+        src/tokenizer/Print.h
+        src/tokenizer/Print.h)

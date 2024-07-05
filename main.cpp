@@ -1,8 +1,16 @@
 #include <iostream>
-#include "src/parser/parser.h"
+#include "src/tokenizer/Print.h"
 
 int main() {
-    parser new_parser;
-    new_parser.create_token_list('cos');
+
+    while (true){
+        char symbol;
+        std::cin >> symbol;
+
+        Print printer;
+
+        printer.print_token(symbol);
+
+    }
     return 0;
 }

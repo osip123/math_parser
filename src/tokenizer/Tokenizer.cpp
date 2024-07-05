@@ -46,3 +46,4 @@ Tokens Tokenizer::create_new_token(char symbol) {
 
     return Tokens::UNNOWN;
 }
+
